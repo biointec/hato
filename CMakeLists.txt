@@ -5,7 +5,7 @@ project(hato)
 # set the module path
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
-# reconfigure ..
+# Set the CPLEX root directory
 set(CPLEX_ROOT_DIR "../../cplex/CPLEX_Studio2211/")
 
 # Set the CPLEX installation directory
