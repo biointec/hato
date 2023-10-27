@@ -68,7 +68,8 @@ This file adheres to the format.
     * CMake 3.0 or higher
     * IBM ILOG CPLEX Optimization Studio 22.11 or higher
 
-Before building the program, make sure to set the CPLEX_ROOT_DIR and CPLEX_DIR variables in the CMakeLists.txt file to the appropriate paths of your CPLEX installation.
+Before building the program, make sure to set the CPLEX_ROOT_DIR and CPLEX_DIR variables in the CMakeLists.txt file to the appropriate paths of your CPLEX installation. 
+Alternatively, you can set them via the commandline using cmake -DCPLEX_ROOT_DIR=/path/to/root and -DCPLEX_DIR=/path/to/root/cplex <options>.
 
 ## Building the program
 
