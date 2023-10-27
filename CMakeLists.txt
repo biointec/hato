@@ -6,10 +6,10 @@ project(hato)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
 # Set the CPLEX root directory
-set(CPLEX_ROOT_DIR "../../cplex/CPLEX_Studio2211/")
+set(CPLEX_ROOT_DIR  "../../cplex/CPLEX_Studio2211/"  CACHE PATH "Path to root Cplex installation")
 
 # Set the CPLEX installation directory
-set(CPLEX_DIR "../../cplex/CPLEX_Studio2211/cplex")
+set(CPLEX_DIR  "../../cplex/CPLEX_Studio2211/cplex"  CACHE PATH "Path to Cplex installation")
 
 
 # Find CPLEX package configuration files
